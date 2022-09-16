@@ -1,0 +1,12 @@
+class Alumno ():
+    nombre = None
+    nota = None
+
+Alumno.nombre = "Paco"
+Alumno.nota = 6.5
+print (Alumno.nombre , Alumno.nota)
+
+if Alumno.nota >= 5 :
+    print ( "Estas Aprobado")
+else:
+    print ("suspendiste")
